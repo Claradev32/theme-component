@@ -2,7 +2,7 @@
 import * as React from "react";
 import { ChangeEventHandler } from "react"
 
-export interface ButtonProps {
+export interface InputProps {
     label?: string;
     disabled?: boolean;
     fontFamily?: string;
@@ -12,7 +12,7 @@ export interface ButtonProps {
     onChange?: ChangeEventHandler<HTMLInputElement>
 }
 
-const Input = (props: ButtonProps) => {
+const Input = (props: InputProps) => {
     return (
         <div>
             <label htmlFor={props.id ? props.id : 'text'}>{props.label}</label>

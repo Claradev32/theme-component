@@ -1,5 +1,5 @@
 import { ChangeEventHandler } from "react";
-export interface ButtonProps {
+export interface InputProps {
     label?: string;
     disabled?: boolean;
     fontFamily?: string;
@@ -8,5 +8,5 @@ export interface ButtonProps {
     id?: string;
     onChange?: ChangeEventHandler<HTMLInputElement>;
 }
-declare const Input: (props: ButtonProps) => import("theme-ui/jsx-runtime").JSX.Element;
+declare const Input: (props: InputProps) => import("theme-ui/jsx-runtime").JSX.Element;
 export default Input;

@@ -5,7 +5,7 @@ import { MouseEventHandler } from "react";
 export interface ButtonProps {
     label?: string;
     color?: string;
-    fontFamily?: string
+    fontFamily?: string;
     onClick?: MouseEventHandler<HTMLButtonElement>
 }
 
